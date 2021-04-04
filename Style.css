@@ -185,7 +185,7 @@ header#two{
 	opacity: 0;
 }
 
-.header-right span {
+.header-right .check-icon {
 	display: inline-block;
 	position: absolute;
 	top: 23px;
@@ -230,23 +230,28 @@ ul.menu li a {
 	padding: 7px 8px;
 	transition: .4;
 	display: block;
+
+	transition: .4s;
 }
 
-ul.menu li a i{
-
+ul.menu li a:hover{
+	transform: translateX(15px);
 }
 
+
+.menu li a span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	font-size: 22px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 10px;
+}
 
 ul.menu li a:hover{
 	color: #eeb758;
 }
-
-
-
-
-
-
-
 
 
 
