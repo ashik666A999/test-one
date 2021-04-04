@@ -1,0 +1,626 @@
+
+    #one{
+        display: block;
+    }
+    #two{
+        display: none;
+    }
+
+@media all and (max-width:1400px) {
+    .fix-width {
+        padding: 9px 20px;
+    }
+}
+
+@media all and (max-width:1200px) {
+    .header-menu ul li {
+        padding: 3px;
+    }
+    .banner-title h2 {
+        font-size: 51px;
+    }
+    .banner-content ul li {
+        font-size: 13px;
+    }
+    .banner-btn a {
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width:1045px){
+    .employment-card .e-card-text ul li {
+        display: block;
+       
+    }
+    .employment-card .e-card-text ul li:nth-child(1) {
+        display: inline-block;
+        margin-bottom: 9px;
+    }
+
+    .employment-card .e-card-text p {
+        line-height: 23px;
+    }
+
+}
+
+
+@media all and (max-width:992px) {
+    #one{
+        display: none;
+    }
+    #two{
+        display: block;
+    }
+    .resume-content {
+        flex-wrap: wrap;
+    }
+    .resume-image {
+        width: 100%;
+    }
+    .resume-text {
+        width: 100%;
+    }
+
+    .skill-card {
+        width: 49%;
+        margin-bottom: 33px;
+        padding: 41px 20px;
+
+    }
+
+    .counter-content {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .counter-info {
+        width: 50%;
+        margin-bottom: 28px;
+    }
+
+    .Counter-section {
+        padding: 30px 82px;
+    }
+
+    .education-programme {
+        flex-wrap: wrap;
+    }
+
+    .e-programm-box {
+        width: 100%;
+    }
+    .e-program-image {
+        width: 100%;
+        margin-right: none;
+    }
+    .e-program-image img {
+        max-width: 50%;
+    }
+    .e-program-image {
+        text-align: center;
+    }
+
+    .e-programm-box ul li {
+        display: block;
+        margin-bottom: 39px;
+        padding: 28px 39px;
+    }
+
+    .e-programm-box ul li .e-heading h4 {
+        display: block;
+    }
+
+    .e-programm-box ul li .e-heading p {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    .e-programm-box ul li .e-heading {
+        width: 100%;
+    }
+
+    .e-programm-box ul li .e-text {
+        width: 100%;
+    }
+    
+
+    .c-middle {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .c-middle a {
+        width: 50%;
+    }
+
+
+    .c-end {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .c-end a{
+        width: 50%;
+    }
+
+    .c-box-adress ul {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .c-box-adress ul li .c-text {
+        margin-bottom: 24px;
+    }
+
+    .contact-form form .c-warpper {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .contact-form form .c-warpper .c-left {
+        width: 100%;
+    }
+
+    .contact-form form .c-warpper .c-right {
+        width: 100%;
+    }
+    .contact-form form .c-warpper .c-right textarea {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+}
+
+@media all and (max-width:768px) {
+
+    .fix-width {
+        padding: 9px 21px;
+    }
+
+    #two{
+        position: relative;
+    }
+    .banner-section {
+        padding: 180px 0;
+    }
+
+    .banner-title h2 {
+        font-size: 38px;
+    }
+    .banner-content ul li {
+        font-size: 10px;
+    }
+
+    .banner-content ul::before {
+        top: 6px;
+        left: -1px;
+        width: 1.5rem;
+    }
+    .banner-content ul::after {
+        top: 6px;
+        right: 1px;
+        width: 1.5rem;
+    }
+    .banner-btn {
+        margin-top: 17px;
+    }
+    .banner-btn a {
+        padding: 9px 13px;
+        font-size: 8px;
+    }
+
+    .resume-text .btn {
+        margin-bottom: 17px;
+    }
+
+    .resume-text .btn a {
+        font-size: 12px;
+    }
+
+    .resume-text h4 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .resume-text p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .resume-info ul li {
+        font-size: 13px;
+    }
+
+    .primary-btn a {
+        font-size: 15px;
+        padding: 13px 11px;
+    }
+
+    .LFWF-title-text h5 {
+        font-size: 16px;
+        margin-bottom: 13px;
+        padding: 8px 9px;
+    }
+    .LFWF-title-text h3 {
+        font-size: 26px;
+        margin-bottom: 26px;
+    }
+
+    .p-items-title ul {
+        margin-bottom: 13px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .p-items-title ul li {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .p-items-image ul li {
+        width: 44%;
+        margin-bottom: 48px;
+        justify-content: space-between;
+    }
+
+    .p-items-image ul li .p-inner-item {
+        top: 42%;
+    }
+
+    .p-items-image ul li .p-inner-item span {
+        font-size: 15px;
+        width: 34px;
+        height: 34px;
+        line-height: 35px;
+
+    }
+
+    .p-items-image ul li .p-inner-item h5 {
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+
+    .p-items-image ul li .p-inner-item p {
+        font-size: 13px;
+    }
+
+    .protfolio-section {
+        padding: 40px 0px;
+    }
+
+    .skill-card {
+        width: 100%;
+    }
+
+    .counter-info {
+        width: 100%;
+    }
+
+    .employment-card {
+        width: 46%;
+        margin-bottom: 23px;
+        margin: 2%;
+    }
+
+    .employment-card .e-card-text ul li:nth-child(1) {  
+        margin-bottom: 10px;
+    }
+
+    .employment-card {
+        width: 100%;
+    }
+
+    .c-middle a {
+        width: 100%;
+    }
+    .c-end a{
+        width: 100%;
+    }
+
+    .contact-form form button {
+        margin-top: 20px;
+        font-size: 15px;
+        padding: 8px 19px;
+    }
+
+
+}
+
+@media all and (max-width:585px) {
+    .resume-text .btn a {
+        font-size: 10px;
+    }
+    .resume-text h4 {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+    .resume-text .btn {
+        margin-bottom: 11px;
+    }
+
+    .resume-text p {
+        font-size: 12px;
+        margin-bottom: 18px;
+    }
+    
+    .primary-btn a {
+        font-size: 11px;
+        padding: 13px 7px;
+    }
+
+    .resume-info ul li {
+        font-size: 9px;
+        line-height: 20px;
+    }
+    .resume-info ul {
+        margin-bottom: 19px;
+    }
+    .resume-text {
+        padding: 38px 38px;
+    }
+
+    .p-items-image ul li {
+        width: 100%;
+        margin-bottom: 27px;
+    }
+    .skill-card .skill-text h6 {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    .skill-card .skill-text p {
+        font-size: 12px;
+        line-height: 27px;
+
+    }
+
+    .skill-card .skill-logo img {
+        width: 89px;
+    }
+    .skill-section {
+        padding: 17px 0px;
+    }
+
+    .counter-info h4 {
+        font-size: 32px;
+    }
+    .counter-info span {
+        font-size: 15px;
+    }
+
+    .e-programm-box ul li .e-heading span {
+        font-size: 15px;
+    }
+    .e-programm-box ul li .e-heading h4 {
+        font-size: 17px;
+        margin-bottom: 9px;
+
+    }
+    .e-programm-box ul li .e-heading p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .e-programm-box ul li .e-text p {
+        font-size: 12px;
+    }
+
+    .education-section {
+        padding: 16px 0px;
+    }
+
+
+
+
+    .employment-section {
+        padding: 43px 0px;
+        background-color: #f0f4fd;
+    }
+
+
+    .contact-form form .c-warpper .c-left input {
+        padding: 8px 13px;
+        margin-bottom: 10px;
+    }
+
+    .contact-form form .c-warpper .c-right textarea {
+        padding: 13px 0px 0px 12px;
+    }
+
+
+    .contact-form {
+        padding: 0px 20px;
+        text-align: center;
+        margin-top: 32px;
+    }
+
+
+
+    .contact-BOx {
+        margin-top: 58px;
+        padding: 32px 7px;
+
+    }
+
+    .contact-section {
+        padding: 26px 0px;
+    }
+
+    footer {
+        padding: 19px 0;
+    }
+}
+
+
+
+@media all and (max-width:450px) {
+
+    .banner-section {
+        padding: 150px 0;
+    }
+
+    .banner-title h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .banner-title::after {
+        right: 34px;
+    }
+    .banner-content ul li {
+        font-size: 8px;
+    }
+
+    .banner-content ul::before {
+        display: none;
+    }
+    .banner-content ul::after{
+        display: none;
+    }
+ 
+    .banner-content ul {
+        color: #fff;
+        display: inline-block;
+        margin-top: 4px;
+        /* justify-content: center; */
+        /* position: relative; */
+    }
+
+    .banner-content ul li {
+        margin-bottom: 5px;
+    }
+
+    .banner-content ul li i {
+        display: none;
+    }
+
+
+    .banner-btn a {
+        padding: 7px 7px;
+        font-size: 7px;
+    }
+    .resume-info {
+        justify-content: space-between;
+    }
+    .resume-info ul:nth-child(1) {
+        width: 40%;
+    }
+    .resume-info ul:nth-child(2) {
+        width: 60%;
+    }
+    .resume-info ul li {
+        font-size: 9px;
+        font-weight: 600;
+    }
+
+    .resume-text h4 {
+        font-size: 12px;
+        margin-bottom: 6px;
+        line-height: 25px;
+    }
+    .resume-text p {
+        font-size: 10px;
+        margin-bottom: 8px;
+        line-height: 20px;
+    }
+    .resume-text .btn a {
+        font-size: 9px;
+    }
+
+    .primary-btn a {
+        font-size: 7px;
+        padding: 11px 6px;
+    }
+    .p-items-image ul li .p-inner-item {    
+        top: 40%;
+    }
+    .p-items-image ul {
+        padding: 0px 27px;
+    }
+    .counter-info span {
+        font-size: 12px;
+    }
+
+    .counter-info h4 {
+        font-size: 28px;
+    }
+
+    .employment-card .e-card-text ul li:nth-child(1) {
+        font-size: 11px;
+    }
+
+    .employment-card .e-card-text ul li {
+        font-size: 15px;
+
+    }
+
+    .employment-card .e-card-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .employment-card .e-card-logo img {
+        width: 89px;
+    }
+    .employment-card {
+        padding: 14px 22px;
+    }
+
+    .client-items a img {
+        width: 119px;
+    }
+
+    .c-box-adress ul li .c-icon span {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 17px;
+
+    }
+
+    .c-box-adress ul li .c-text p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 500;
+    }
+
+    .footer-top ul li span {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+
+    }
+
+    .footer-Bottom p {
+        font-size: 13px;
+    }
+    .footer-top ul li {
+        margin: 5px;
+    }
+    .header-right span {
+        top: 18px;
+        right: 26px;
+        font-size: 35px;
+
+    }
+    .header-logo img {
+        width: 68px;
+    }
+    .banner-title::after {
+        right: 21px;
+    }
+}
+
+@media all and (max-width:350px){
+    .resume-info ul li {
+        font-size: 7px;
+    }
+}
+
+
+@media all and (max-width:300px){
+    .banner-title::after {
+        right: 11px;
+    }
+}
+
