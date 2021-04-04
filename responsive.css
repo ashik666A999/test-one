@@ -618,7 +618,7 @@
 }
 
 
-@media all and (max-width:300px){
+@media all and (max-width:304px){
     .banner-title::after {
         right: 11px;
     }
